@@ -20,6 +20,7 @@ export default async function Layout({ children }: { children: React.ReactNode }
 				{/* <SearchContextProvider>
 					<PetContextProvider data={pets}>{children}</PetContextProvider>
 				</SearchContextProvider> */}
+				{children}
 
 				<AppFooter />
 			</div>
